@@ -13,12 +13,6 @@
 </head>
 <body>
 
-  <nav>
-    <div id="navbar">
-        <a href="#">
-          <img src="Assets/Images/By.png" alt="" srcset="" width="100px" height="110px">
-        </a>
-    </div>
 
     <!-- <div id="myNav" class="overlay ">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -31,74 +25,85 @@
       </div>
       <span class="toggle-button" onclick="openNav()">&#9776;</span> -->
 
-
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Media</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Student</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">School</a>
-            </li>
-            <li class="nav-item Signin">
-              <a class="nav-link Signin-link" href="#" data-target="#mymodal" data-toggle = "modal">Sign in</a>
-            </li>
-            <li class="nav-item Signup">
-              <a class="nav-link Signup-link" href="#">Signup</a>
-            </li>
-          </ul>
+  
+      <header>
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div id="navbar">
+            <a href="#">
+              <img src="Assets/Images/By.png" alt="" srcset="" width="100px" height="100px">
+            </a>
         </div>
-      </nav>
-
-
-  <!-- Main layout -->
-  <section>
-    <div class="container-fluid section-1">
-        <div class="Middle">
-        <h1 class="animated  shake delay-0s">Byte<span id="hub">Hub</span></h1>
-        <p class="subtitle bottom-text"><span>Decoding Future</span></p>
-      </div> 
-      <div class="Middle-text">
-        <p class="para" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestiae alias,
-          neque veniam eos sed cupiditate error adipisci labore id? Repellendus magnam laudantium 
-          laborum nisi optio voluptatem quae ea maiores!</p>
-     </div>
+          <button class="navbar-toggler custom-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Student">Student</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" >School</a>
+              </li>
+              <li class="nav-item Signin">
+                <a class="nav-link Signin-link" href="#" data-target="#mymodal" data-toggle = "modal">Sign in</a>
+              </li>
+              <li class="nav-item Signup">
+                <a class="nav-link Signup-link" href="#">Signup</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-  </section>
-  <!-- main layout -->
-  <div class="jumbotron jumbotron-fluid ">
+      </header>
+      
+      <section class="banner">
+      <div class="container" >
+        <div class="row">
+          <div class="ByteHub col-sm-12">
+            <h1>ByteHub</h1>
+            <p class="subtitle bottom-text"><span>Decoding Future</span></p>
+            <p id="Byte-text">Together we learn, Together we grow, Together we are a part of the innovation</p>
+          </div>
+        </div>
+      </div>
+      </section>
+      
+
+
+
+
+  <!-- <div class="jumbotron jumbotron-fluid ">
     <div class="container">
-      <h3 class="animated infinite jumboheading bounce delay-0s" id="jumboheading">What do we do?</h3>     
-      <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
     </div>
-  </div>
+  </div> -->
 
 
 <section class="ser">
     <div class="container">
+        <div class="service-head py-3 mt-5 ">
+          <h2 class="service-head-text  animated infinite bounce delay-0s">What we do?</h2>
+        </div>
       <div class="services">
       <div class="headerdivider"></div>
-          <div class="flip-card ">
+
+          <div class="flip-card flip-card-ani1">
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <img src="Assets/Images/developer.jpg" alt="Avatar"">
                 <div class="card-text">
-                  <h4>Devloper</h4>
-                <p>With supporting text below as a natural lead-in to additional content.</p>
+                  <h4>Platform</h4>
+                <p>INVOLVE,INDULGE,INNOVATE</p>
+                <p>Bytehub is one of the largest learning and competition platform.</p>
                 </div>
               </div>
               <div class="flip-card-back">
@@ -107,13 +112,15 @@
             </div>
           </div>
   
-           <div class="flip-card-2 "">
+           <div class="flip-card-2 flip-card-2-ani">
             <div class="flip-card-inner-2">
               <div class="flip-card-front-2 fc2-front">
                 <img src="Assets/Images/developer.jpg" alt="Avatar"">
-                <div class="card-text">
-                  <h4>Devloper</h4>
-                <p>With supporting text below as a natural lead-in to additional content.</p>
+                <div class="card-text-2">
+                  <h4>Hack</h4>
+                <p>CODE,BUILD,HACK</p>
+                <p>Unleash your inner Hacker,programmer and competitor and be a part of
+                  the most engaged student coding/innovating community.</p>
                 </div>
               </div>
               <div class="flip-card-back-2">
@@ -122,13 +129,14 @@
             </div>
           </div>
           <!-- <div class=" v-divider">.</div> -->
-          <div class="flip-card">
+          <div class="flip-card  flip-card-ani1">
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <img src="Assets/Images/developer.jpg" alt="Avatar"">
                 <div class="card-text">
-                  <h4>Devloper</h4>
-                <p>With supporting text below as a natural lead-in to additional content.</p>
+                  <h4>Industry connect</h4>
+                <p>LEARN,COMPETE,CONNECT</p>
+                <p>Bytehub is the leading industry connect platform for Schools and engineering STUDENTS.</p>
                 </div>
               </div>
               <div class="flip-card-back">
@@ -137,13 +145,15 @@
             </div>
           </div>
   
-          <div class="flip-card-2">
+          <div class="flip-card-2 flip-card-2-ani">
             <div class="flip-card-inner-2">
               <div class="flip-card-front-2 fc2-front">
                 <img src="Assets/Images/developer.jpg" alt="Avatar"">
-                <div class="card-text">
-                  <h4>Devloper</h4>
-                <p>With supporting text below as a natural lead-in to additional content.</p>
+                <div class="card-text-2">
+                  <h4>Future Opportunities</h4>
+                <p>SCREEN,SKILL,GROW</p>
+                <p>Enhance your skills being a part of the largest growing technical community
+                  and direct your career towards the right path</p>
                 </div>
               </div>
               <div class="flip-card-back-2">
@@ -160,41 +170,396 @@
 
 <!-- What's Here for you? -->
 <section class="sectioner py-5 ">
-<div py-3">
+<div py-3" class="for-you-heading">
   <span class="heading animated infinite bounce delay-0s">What's For You?</span>
 </div>
   <div class="container Whatforyou py-2">
 		<div class="card cd">
 			<div class="content ct">
 				<h2 id="content-text">JOIN</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<a href="#">Read More</a>
+				<p>Be a part of INDIA's one of the largest growing community of technical enthusiasts.</p>
+			
 			</div>
 		</div>
 		<div class="card cd">
 			<div class="content ct">
-				<h2 id="content-text">JOIn</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<a href="#">Read More</a>
+				<h2 id="content-text">Find your interest</h2>
+				<p id="interest">Be the Developer you choose to be.</p>
+				
 			</div>
 		</div>
 		<div class="card cd">
 			<div class="content ct">
-				<h2 id="content-text">JOIN</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<a href="#">Read More</a>
+				<h2 id="content-text">Learn</h2>
+				<p>With the help of corporate professionals enhance your skills,innovate and get rewarded.</p>
+			
 			</div>
 		</div>
 		<div class="card cd">
 			<div class="content ct">
-				<h2 id="content-text">JOIN</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<a href="#">Read More</a>
+				<h2 id="content-text">Stand out</h2>
+				<p>Compete,Discover and stand out.
+          Be known in the community with your expertise.</p>
+			
 			</div>
 		</div>
 	</div>
 </section>
 <!-- What's here for ypu -->
+
+
+<!-- service -->
+<section class="Student py-lg-4 py-md-3 py-sm-3 py-3" id="Student">
+  <div class="container py-lg-4 py-md-3 py-sm-3 py-3">
+  <div class="Student-Heading mb-3">
+    <h2 class="animated infinite bounce delay-0s"> For Student</h2>
+  </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-7 Student-animate">
+        <div class="Together mt-lg-5 mt-md-4 my-3 Together-animate">
+          <div class="row ">
+            <div class="col-lg-2 col-md-3 col-sm-2">
+              <div class="service-icon text-center ">
+                <span aria-hidden="true"> <i class="fas fa-arrow-circle-right"></i></span>
+              </div>
+            </div>
+            <div class="Together-grid col-lg-10 col-md-9 col-sm-10 ">
+              <a href="" data-target="#Together" data-toggle = "modal">
+              <h4>Together we are a part of the Journey</h4>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="Socialisation  mt-lg-5 mt-md-4 my-3 Soc-animate">
+          <div class="row ">
+            <div class="col-lg-2 col-md-3 col-sm-2">
+              <div class="service-icon text-center ">
+                <span aria-hidden="true"> <i class="fas fa-arrow-circle-right"></i></span>
+              </div>
+            </div>
+            <div class="Socialisation-grid col-lg-10 col-md-9 col-sm-10">
+              <a href="" data-target="#Socialisation" data-toggle = "modal">
+              <h4>Socialisation </h4>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="Technological mt-lg-5 mt-md-4 my-3 Tech-animate" >
+          <div class="row ">
+            <div class="col-lg-2 col-md-3 col-sm-2">
+              <div class="service-icon text-center ">
+                <span aria-hidden="true"> <i class="fas fa-arrow-circle-right"></i></span>
+              </div>
+            </div>
+            <div class="Technological-grid col-lg-10 col-md-9 col-sm-10">
+              <a href="" data-target="#Technological" data-toggle = "modal">
+              <h4>Technological skills</h4>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="Management mt-lg-5 mt-md-4 my-3 Manage-animate">
+          <div class="row ">
+            <div class="col-lg-2 col-md-3 col-sm-2">
+              <div class="service-icon text-center ">
+                <span aria-hidden="true"> <i class="fas fa-arrow-circle-right"></i></span>
+              </div>
+            </div>
+            <div class="Management-grid col-lg-10 col-md-9 col-sm-10">
+
+              <a href="" data-target="#Management" data-toggle = "modal">
+              <h4>Management of information and time</h4>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="responsibility mt-lg-5 mt-md-4 my-3 resp-animate">
+          <div class="row ">
+            <div class="col-lg-2 col-md-3 col-sm-2">
+              <div class="service-icon text-center ">
+                <span aria-hidden="true"> <i class="fas fa-arrow-circle-right"></i></span>
+              </div>
+            </div>
+            <div class="responsibility-grid col-lg-10 col-md-9 col-sm-10">
+              <a href="" data-target="#responsibility" data-toggle = "modal">
+              <h4>Sense of responsibility</h4>
+            </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-5 text-center Student-Img-animate">
+        <img src="Assets/Images/s2.png" alt="news image" class="img-fluid">
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--//service -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------------------------------------------------------------ -->
+  <!-- service -->
+  
+  <div class="container">
+    <div class="modal animated bounceInRight delay-0s" id="Together">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="modal-img">
+                  <img src="Assets/Images/Together.png" class=" animated bounceInDown delay-0s">
+                </div>
+              </div>  
+              <div class="col-sm-8 modal-text">
+                <h2 class="modal-text-head animated fadeInUp delay-0s">Together we are a part of the Journey</h2>
+                <p>
+                      As a part of our community you will be indulged in a variety of different learning events.Where you will be having the opportunity to showcase your talent and skills
+                  infront of the Corporate Experts.Which will enhance your chances to find your level of innovative thinking and get rewarded for it,and we will make sure the right talent
+                  meets the right opportunity in future..
+                  Together we learn,Together we grow and Together we are a part of the innovation.. </p>
+                    </div>
+                 </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="modal  animated bounceInRight	 delay-0s" id="Socialisation">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="modal-img">
+                  <img src="Assets/Images/code.jpeg" class="animated bounceInDown delay-0s">
+                </div>
+              </div>  
+              <div class="col-sm-7 modal-text">
+                <h2 class="modal-text-head animated fadeInUp delay-0s">Socialisation</h2>
+                <p>
+                  We offer students and industry experts different tools oriented towards collaborative learning: forums,
+                  It does not only involve finding orientation and support at occasional times, but encouraging participation, completing training with other points of view,
+                  empathising and strengthening personal relationships through synergy, generating the sensation of belonging to a group
+                  – Socialising. Additionally the student increases their level of commitment, and finds suitable contexts for strengthening
+                  their skills and attitudes for learning.  
+                </p>
+                    </div>
+                 </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="modal animated bounceInRight delay-0s fade" id="Technological">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="modal-img">
+                  <img src="Assets/Images/code.jpeg" class="animated bounceInDown delay-0s">
+                </div>
+              </div>  
+              <div class="col-sm-7 modal-text">
+                <h2 class="modal-text-head animated fadeInUp delay-0s">Technological skills</h2>
+                <p>
+                  Technological development is constant in our daily lives. Acquiring technological skills from the digital environments that 
+                  a learning platform offers is practically essential for knowing how to adapt to changes in the existing models and the professional
+                  activity of the future of our society. Among these skills, learning platforms begin with the mastery of ICT (information and communication technology) 
+                  to use them to learn how to access the content that complements learning, to select the most relevant elements, analyse them, 
+                  and draw conclusions. In fact, technological skills help to develop critical thinking, problem solving, creativity and collaboration. 
+                  Additionally, they foster interest and curiosity in knowledge and innovation, while improving the capacity for initiative, adaptability 
+                  and integration.
+                </p>
+                   
+                </div>
+                 </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="modal animated bounceInRight delay-0s" id="Management">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="modal-img">
+                  <img src="Assets/Images/code.jpeg" class="animated bounceInDown delay-0s">
+                </div>
+              </div>  
+              <div class="col-sm-7 modal-text">
+                <h2 class="modal-text-head animated fadeInUp delay-0s">Management of information and time</h2>
+                <p>
+                  We provide multiple additional tools for planning training such as schedules, notifications, communications 
+                  and upcoming events.Consequently, students learn to coordinate their activities, to be more selective, and to establish priorities, optimising their 
+                  time and dedication. This helps them obtain the maximum performance from their efforts.
+                </p>
+                    </div>
+                 </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container">
+    <div class="modal animated bounceInRight delay-0s" id="responsibility">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="modal-img ">
+                  <img src="Assets/Images/code.jpeg" class="animated bounceInDown delay-0s">
+                </div>
+              </div>  
+              <div class="col-sm-7 modal-text">
+                <h2 class="modal-text-head animated fadeInUp delay-0s">Sense of responsibility</h2>
+                <p>
+                  Moving on, we have multiple variables for checking the success of learning. In this sense, Through the self-evaluation, the student 
+                  becomes aware of their progress, their level of learning and their areas for improvement. Therefore, self-evaluation is an exercise in responsibility, 
+                  a precise and effective way of understanding the level of learning. Additionally, This allows the level of commitment of the student to be maintained, 
+                  while reducing the amount of pressure on them, as the processes for measuring the effectiveness of learning are not limited to occasional controls upon 
+                  which the whole qualification is based.
+                </p>
+                    </div>
+                 </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -423,7 +788,7 @@
             <li><a href="#">About Us</a></li>
             <li><a href="#">Media</a></li>
             <li><a href="#">School</a></li>
-            <li><a href="#">Student</a></li>
+            <li><a href="#Student">Student</a></li>
           </ul>             
       </div>
          <div class="col-md-4 col-sm-6 col-xs-12 segment-three">
@@ -443,14 +808,36 @@
   </div>
 </footer>
 <!-- Footer -->
+<script>
+//   var waypoint = new Waypoint({
+//   element: document.getElementById('px-offset-waypoint'),
+//   handler: function(direction) {
+//     notify('I am 20px from the top of the window')
+//   },
+//   offset: 20 
+// })
+
+  $(document).ready(function(){
+    $('.img-fluid').waypoint(function(direction){
+      $('.img-fluid').addClass('animated fadeIn')
+    },{
+      offset: '50%'
+    })
+  })
+
+</script>
 
 
 
 
-
-    <script src="Home.js"></script>
+    
+   
     <script src="bootstrap-4.3.1-dist/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
     <script src="bootstrap-4.3.1-dist/js/popper.min.js"></script>
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/particles.js"></script>
+     <script src="bootstrap-4.3.1-dist/js/app.js"></script>
+     <script src="Home.js"></script>
 </body>
 </html>
